@@ -6,7 +6,7 @@ export default async function addData(collection,id,data)
     let result = null; 
     let error = null;
         try {
-             const docRef = doc(db, data['district'], data["voter_id"]);
+             const docRef = doc(projectFirestore, data['district'], data["voter_id"]);
 
             // Get a document, forcing the SDK to fetch from the offline cache.
             try {
