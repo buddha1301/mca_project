@@ -25,8 +25,9 @@ export default async function addData(collection,id,data)
         catch(e)
         {
             error=e
-        }
 
+        }
+        
         
          if (data['age']< 18)
         {
