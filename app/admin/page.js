@@ -70,17 +70,6 @@ function Page() {
                   </div>
 
 
-
-                  <div>
-                      <label htmlFor="voter_id" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Date of Birth</label>
-                      <input type="date" name="date_of_birth" id="dob" placeholder="Date of birth"  onChange={(e)=>setDateOfBirth(e.target.value)} value={dob} className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required/>
-                  </div>
-
-
-                  
-
-
-
                   <div>
                       <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ward</label>
                       <input type="text" name="school" id="current_school"   onChange={(e)=>setWard(e.target.value)} value={ward} className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required/>
